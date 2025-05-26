@@ -1,0 +1,1 @@
+This is the overall practice for the data structure and algorithm using the c++ with bits and parts and the leet-code solution. We will update this file for the proper follow up for the every concept will learn for better understanding.
