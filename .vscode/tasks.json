@@ -1,0 +1,16 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "build current file to central folder",
+        "type": "shell",
+        "command": "mkdir -p build/Debug && g++ -g \"${file}\" -o build/Debug/outDebug",
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": ["$gcc"]
+      }
+    ]
+  }
+  
