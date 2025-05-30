@@ -22,5 +22,12 @@ int main(){
     cout << "this is the seventh line\n";
     // we can also use the \n in the string
     cout << "this is the eighth line\n";
+    // now we look at the input operation
+    // we can use the cin to take the input from the user
+    int a{}, b{};
+    // we can use the cin to take the input from the user
+    cout << "\nEnter the two number:";
+    cin >> a >> b;
+    cout << "\nThe first number is : " << a <<"and the second number is : " << b << "\n";
     return 0;
 }
