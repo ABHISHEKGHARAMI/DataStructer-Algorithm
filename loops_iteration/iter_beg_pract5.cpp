@@ -4,7 +4,8 @@ using namespace std;
 int main(){
     int number,rem;
     int count = 0;
-    cout << "enter the number for counting the digit:";
+    cout<< "Program for counting the digit of a number :";
+    cout << "\nenter the number for counting the digit:";
     cin >> number;
     while (number!=0)
     {
