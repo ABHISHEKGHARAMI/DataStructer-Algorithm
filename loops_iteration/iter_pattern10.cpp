@@ -28,7 +28,7 @@ int main(){
         for (int j = 0; j <= i; j++)
         {
             // for printing the number pattern
-            cout << val <<"\t";
+            cout << val <<" ";
             val = val * (i - j) / (j + 1 );
         }
         cout << "\n";
