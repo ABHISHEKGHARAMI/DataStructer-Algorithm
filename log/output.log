@@ -18,3 +18,16 @@
 [Wed Jul 16 21:29:53 2025] [ INFO ] Program started...
 [Wed Jul 16 21:30:10 2025] [ INFO ] Sum of the array is : 10
 [Wed Jul 16 21:30:10 2025] [ INFO ] Program finished
+[Sun Jul 27 19:27:02 2025] [ INFO ] Program started
+[Sun Jul 27 19:27:02 2025] [ INFO ] the memory address of the variable is : 0x7fffffffdadc
+[Sun Jul 27 19:27:02 2025] [ INFO ] the variable value is : 10
+[Sun Jul 27 19:35:50 2025] [ INFO ] Program started
+[Sun Jul 27 19:35:50 2025] [ INFO ] the memory address of the variable is : 0x7fffffffdad4
+[Sun Jul 27 19:35:50 2025] [ INFO ] the variable value is : 10
+[Sun Jul 27 19:35:50 2025] [ INFO ] Pointer declared at the memory of : 0x7fffffffdad40x7fffffffdad4
+[Sun Jul 27 19:35:50 2025] [ INFO ] The value pointer referencing is : 10
+[Sun Jul 27 19:40:11 2025] [ INFO ] Program started
+[Sun Jul 27 19:40:11 2025] [ INFO ] the memory address of the variable is : 0x7fffffffdad4
+[Sun Jul 27 19:40:11 2025] [ INFO ] the variable value is : 10
+[Sun Jul 27 19:40:11 2025] [ INFO ] Pointer declared at the memory of : 0x7fffffffdad4
+[Sun Jul 27 19:40:11 2025] [ INFO ] The value pointer referencing is : 10
