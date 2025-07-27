@@ -31,3 +31,19 @@
 [Sun Jul 27 19:40:11 2025] [ INFO ] the variable value is : 10
 [Sun Jul 27 19:40:11 2025] [ INFO ] Pointer declared at the memory of : 0x7fffffffdad4
 [Sun Jul 27 19:40:11 2025] [ INFO ] The value pointer referencing is : 10
+[Sun Jul 27 20:16:55 2025] [ INFO ] Program started...
+[Sun Jul 27 20:17:21 2025] [ INFO ] the variable is stored in the memory location of : 0x7fffffffdad4
+[Sun Jul 27 20:17:21 2025] [ INFO ] Pointer declared
+[Sun Jul 27 20:17:21 2025] [ INFO ] the pointer is referencing at the memory location of : 0x7fffffffdad4
+[Sun Jul 27 20:17:21 2025] [ INFO ] the value of the pointer is : 10
+[Sun Jul 27 20:17:21 2025] [ INFO ] Program ended ..
+[Sun Jul 27 20:29:09 2025] [ INFO ] Program started...
+[Sun Jul 27 20:29:15 2025] [ INFO ] the variable is stored in the memory location of : 0x7fffffffdad4
+[Sun Jul 27 20:29:15 2025] [ INFO ] Pointer declared
+[Sun Jul 27 20:29:15 2025] [ INFO ] the pointer is referencing at the memory location of : 0x7fffffffdad4
+[Sun Jul 27 20:29:15 2025] [ INFO ] the value of the pointer is : 10
+[Sun Jul 27 20:29:20 2025] [ INFO ] the new value pointer referencing is : 60
+[Sun Jul 27 20:29:20 2025] [ INFO ] the memory location of the pointer is : 0x7fffffffdad4
+[Sun Jul 27 20:29:20 2025] [ INFO ] the memory address of the variable is : 0x7fffffffdad4
+[Sun Jul 27 20:29:20 2025] [ INFO ] the value stored in the variable is : 60
+[Sun Jul 27 20:29:20 2025] [ INFO ] Program ended ..
