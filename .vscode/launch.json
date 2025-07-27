@@ -27,8 +27,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/abhishek/Documents/C++Datastructure&Algorithm/DataStructer-Algorithm/Introduction_of_c++",
-      "program": "/home/abhishek/Documents/C++Datastructure&Algorithm/DataStructer-Algorithm/Introduction_of_c++/build/Debug/outDebug",
+      "cwd": "/home/abhishek/Documents/C++Datastructure&Algorithm/DataStructer-Algorithm",
+      "program": "/home/abhishek/Documents/C++Datastructure&Algorithm/DataStructer-Algorithm/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
