@@ -30,6 +30,17 @@ int main(int argc,char* argv[]){
     cout << "the next element is  : " << *(ptr + 1);
     LOG_INFO("The next memory location is : " + ss.str());
     LOG_INFO("The next element of the array is : " + std::to_string(*(ptr+1)));
+    // now we know the how to deal with that pointer for the specific memory address
+    // here go for the increment and the decrement operator for the pointer 
+    // lets say i want to approach for the 3rd element of the array
+    ptr += 3;
+    ss.str("");
+    ss.clear();
+    ss << ptr;
+    LOG_INFO("The memory address of next pointer reference is :  " + ss.str());
+    cout << "The memory address of the next pointer reference is : " << ptr;
+    LOG_INFO("The data it holds is : " + std::to_string(*ptr));
+    cout << "The data its holds is : " << *ptr;
     LOG_INFO("Ending the program.....");
     return 0;
 }

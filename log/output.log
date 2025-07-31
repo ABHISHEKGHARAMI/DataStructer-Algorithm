@@ -84,3 +84,10 @@
 [Fri Aug  1 00:20:39 2025] [ INFO ] The next memory location is : 0x7fffffffdaa4
 [Fri Aug  1 00:20:39 2025] [ INFO ] The next element of the array is : 20
 [Fri Aug  1 00:20:39 2025] [ INFO ] Ending the program.....
+[Fri Aug  1 00:37:48 2025] [ INFO ] Starting the program....
+[Fri Aug  1 00:37:48 2025] [ INFO ] the pointer stores the memory of : 0x7fffffffdaa0
+[Fri Aug  1 00:37:48 2025] [ INFO ] The next memory location is : 0x7fffffffdaa4
+[Fri Aug  1 00:37:48 2025] [ INFO ] The next element of the array is : 20
+[Fri Aug  1 00:37:48 2025] [ INFO ] The memory address of next pointer reference is :  0x7fffffffdaac
+[Fri Aug  1 00:37:48 2025] [ INFO ] The data it holds is : 40
+[Fri Aug  1 00:37:48 2025] [ INFO ] Ending the program.....
