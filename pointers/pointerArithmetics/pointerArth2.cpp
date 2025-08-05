@@ -40,7 +40,7 @@ int main(int argc,char* argv[]){
                 LOG_INFO(std::to_string(*(ptr+i)));
             }
             
-            
+            delete[] arr;
         }
         catch(const std::exception& e)
         {
