@@ -155,3 +155,35 @@
 [Sun Aug 10 21:32:48 2025] [ INFO ] Deleting the memory of the matrix..
 [Sun Aug 10 21:32:48 2025] [ INFO ] Memory delete operation complete ..
 [Sun Aug 10 21:32:48 2025] [ INFO ] Program ended.....
+[Sun Aug 10 21:39:51 2025] [ INFO ] Program started...
+[Sun Aug 10 21:39:55 2025] [ INFO ] Creating matrix : 
+[Sun Aug 10 21:39:55 2025] [ INFO ] Insertion of the matrix : 
+[Sun Aug 10 21:40:00 2025] [ INFO ] Matrix insertion complete...
+[Sun Aug 10 21:40:00 2025] [ INFO ] Printing the matrix :
+[Sun Aug 10 21:40:00 2025] [ INFO ] 1
+[Sun Aug 10 21:40:00 2025] [ INFO ] 2
+[Sun Aug 10 21:40:00 2025] [ INFO ] 3
+[Sun Aug 10 21:40:00 2025] [ INFO ] 4
+[Sun Aug 10 21:40:00 2025] [ INFO ] Creating matrix : 
+[Sun Aug 10 21:40:00 2025] [ INFO ] Insertion of the matrix : 
+[Sun Aug 10 21:40:06 2025] [ INFO ] Matrix insertion complete...
+[Sun Aug 10 21:40:06 2025] [ INFO ] Printing the matrix :
+[Sun Aug 10 21:40:06 2025] [ INFO ] 5
+[Sun Aug 10 21:40:06 2025] [ INFO ] 6
+[Sun Aug 10 21:40:06 2025] [ INFO ] 8
+[Sun Aug 10 21:40:06 2025] [ INFO ] 9
+[Sun Aug 10 21:40:09 2025] [ INFO ] Addition of the matrix :
+[Sun Aug 10 21:40:09 2025] [ INFO ] Creating matrix : 
+[Sun Aug 10 21:40:09 2025] [ INFO ] Addition of matrix operation complete..
+[Sun Aug 10 21:40:09 2025] [ INFO ] Printing the matrix :
+[Sun Aug 10 21:40:09 2025] [ INFO ] 6
+[Sun Aug 10 21:40:09 2025] [ INFO ] 8
+[Sun Aug 10 21:40:09 2025] [ INFO ] 11
+[Sun Aug 10 21:40:09 2025] [ INFO ] 13
+[Sun Aug 10 21:40:09 2025] [ INFO ] Deleting the memory of the matrix..
+[Sun Aug 10 21:40:09 2025] [ INFO ] Memory delete operation complete ..
+[Sun Aug 10 21:40:19 2025] [ INFO ] Deleting the memory of the matrix..
+[Sun Aug 10 21:40:19 2025] [ INFO ] Memory delete operation complete ..
+[Sun Aug 10 21:40:19 2025] [ INFO ] Deleting the memory of the matrix..
+[Sun Aug 10 21:40:19 2025] [ INFO ] Memory delete operation complete ..
+[Sun Aug 10 21:40:19 2025] [ INFO ] Program ended.....

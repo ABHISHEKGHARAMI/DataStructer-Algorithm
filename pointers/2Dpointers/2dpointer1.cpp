@@ -139,14 +139,12 @@ int main(int argc,char* argv[]){
         }else{
             if (choice == 1)
             {
-                int** mat3 = createMatrix(row,col);
-                mat3 = additionMatrix(mat1,mat2,row,col);
+                int** mat3 =  additionMatrix(mat1,mat2,row,col);
                 printMatrix(mat3,row,col);
                 freeSpace(mat3,row,col);
             }else if (choice == 2)
             {
-                int **mat3 = createMatrix(row, col);
-                mat3 = substractionMatrix(mat1,mat2,row,col);
+                int **mat3 =  substractionMatrix(mat1,mat2,row,col);
                 printMatrix(mat3,row,col);
                 freeSpace(mat3,row,col);
             }
@@ -154,7 +152,7 @@ int main(int argc,char* argv[]){
             
         }
         
-       } while (choice==0);
+       } while (choice!=0);
        freeSpace(mat1, row, col);
        freeSpace(mat2, row, col);
     }
