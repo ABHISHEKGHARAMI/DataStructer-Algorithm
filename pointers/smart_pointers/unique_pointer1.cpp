@@ -21,6 +21,16 @@ int main(int argc,char* argv[]){
     std::unique_ptr<int> p1 = std::make_unique<int>(42);
     std::cout<<"The pointer value is :"<<*p1;
     LOG_INFO("The pointer value is : "+std::to_string(*p1));
+    // now have to move the ownership of the pointer to see it exists or not for demonstrate purpose
+    std::unique_ptr<int> p2 = std::move(p1);
+    if (!p1)
+    {
+        // first owner already destroyed 
+        std::cout << "First pointer destroyed..the second pointer value is : " << *p2;
+        LOG_INFO("The first owner of the pointer destroyed..after moving the value is : "+std::to_string(*p2));
+    }
+    
     LOG_INFO("Program ended...");
     return 0;
+    // after the calling the memory will be freed auto
 }
