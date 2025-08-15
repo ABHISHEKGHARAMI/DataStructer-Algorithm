@@ -48,3 +48,4 @@ int main(int argc,char* argv[]){
     LOG_INFO("Program ended..");
     return 0;
 }
+// after main function returns the pointers will be destroyed
