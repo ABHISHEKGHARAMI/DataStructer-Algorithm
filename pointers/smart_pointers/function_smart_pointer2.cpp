@@ -39,7 +39,6 @@ int main(int argc, char *argv[]){
         std::cout << "Array pointer destroyed..."<< std::endl;
     }
     
-    
     LOG_INFO("Program ended..");
     return 0;
 }
