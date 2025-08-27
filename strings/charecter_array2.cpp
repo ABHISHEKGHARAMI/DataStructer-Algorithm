@@ -38,7 +38,24 @@ void concat(char* dest,const  char* src1,const char* src2){
     
     dest[i] = '\0';
 }
-
+// compare two string using the custom function
+bool my_compare(const char str1[],const char str2[]){
+    int len1 = my_strlen(str1);
+    int len2 = my_strlen(str2);
+    if (len1 != len2)
+    {
+        return false;
+    }
+    for (int i = 0; i < len1; i++)
+    {
+        if (str1[i]!=str2[i])
+        {
+            return false;
+        }
+        
+    }
+    return true;
+}
 // reverse the string 
 void reverse(char src[]){
     int end = my_strlen(src) - 1;
@@ -72,6 +89,17 @@ int main(int argc,char* argv[]){
     reverse(str1);
     std::cout << "After reversing the string is : " << str1 << std::endl;
     LOG_INFO(std::string("After reversing the string : ") + str1);
+    reverse(str1);
+    bool is_compare = my_compare(str1,str2);
+    if (is_compare==true)
+    {
+        std::cout << "After compareing the strings are same." << std::endl;
+        LOG_INFO("After compareing the two strings are the same.")
+    }else{
+        std::cout << "Strings are not the same .." << std::endl;
+        LOG_INFO("Strings are not same..");
+    }
+    
     LOG_INFO("Program ended...");
     return 0;
 }
