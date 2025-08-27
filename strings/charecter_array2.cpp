@@ -84,6 +84,32 @@ void reverse(char src[]){
         end--;
     }
 }
+// function to count the number of vowels and constant in the string
+void count_Vowel_Constant(const char* str1){
+    int vowel = 0;
+    int constant = 0 ;
+    for (int i = 0; i < my_strlen(str1) ; i++)
+    {
+        char ch = std::tolower(str1[i]);
+        if (ch >= 'a' && ch <= 'z')
+        {
+            if (ch=='a' || ch== 'e' || ch=='i'|| ch=='o' || ch=='u')
+            {
+                vowel++;
+            }else{
+                constant++;
+            }
+            
+        }
+        
+        
+    }
+    std::cout << "The number of vowel in the string is : " << vowel << std::endl;
+    std::cout << "The number of constant in the string is : " << constant << std::endl;
+    LOG_INFO("The number of vowel in the string is : " + std::to_string(vowel));
+    LOG_INFO("The number of constant in the string is : " + std::to_string(constant));
+    
+}
 int main(int argc,char* argv[]){
     LOG_INFO("Program started...");
     char str1[100],str2[100];
@@ -123,7 +149,8 @@ int main(int argc,char* argv[]){
         std::cout << "String is not pallindrome.." << std::endl;
         LOG_INFO("String is not pallindrome..");
     }
-    
+    count_Vowel_Constant(str1);
+    count_Vowel_Constant(str2);
     LOG_INFO("Program ended...");
     return 0;
 }
