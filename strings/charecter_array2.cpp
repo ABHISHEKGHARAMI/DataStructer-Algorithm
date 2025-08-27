@@ -56,6 +56,21 @@ bool my_compare(const char str1[],const char str2[]){
     }
     return true;
 }
+// check if a given string is pallindrome or not
+bool is_pallindrome(const char* str1){
+    int start = 0;
+    int end = my_strlen(str1) - 1;
+    while (start < end)
+    {
+        if (str1[start] != str1[end])
+        {
+            return false;
+        }
+        start++;
+        end--;
+    }
+    return true;
+}
 // reverse the string 
 void reverse(char src[]){
     int end = my_strlen(src) - 1;
@@ -98,6 +113,15 @@ int main(int argc,char* argv[]){
     }else{
         std::cout << "Strings are not the same .." << std::endl;
         LOG_INFO("Strings are not same..");
+    }
+    bool is_pal = is_pallindrome(str1);
+    if (is_pal)
+    {
+        std::cout << "String is pallindrome ." << std::endl;
+        LOG_INFO("String is pallindrome.");
+    }else{
+        std::cout << "String is not pallindrome.." << std::endl;
+        LOG_INFO("String is not pallindrome..");
     }
     
     LOG_INFO("Program ended...");
