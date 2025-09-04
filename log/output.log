@@ -480,3 +480,9 @@
 [Mon Sep  1 22:00:18 2025] [ INFO ] The string is : hello there
 [Mon Sep  1 22:00:18 2025] [ INFO ] The size of the string is : 11
 [Mon Sep  1 22:00:32 2025] [ INFO ] program ended...
+[Thu Sep  4 22:19:32 2025] [ INFO ] Program started...
+[Thu Sep  4 22:20:12 2025] [ INFO ] The size of the string is : 39
+[Thu Sep  4 22:20:19 2025] [ INFO ] after coping the string is to the world of c++
+[Thu Sep  4 22:20:19 2025] [ INFO ] The size of the string is : 19
+[Thu Sep  4 22:20:19 2025] [ INFO ] the capacity of the string is : 19
+[Thu Sep  4 22:20:19 2025] [ INFO ] Program ended..
