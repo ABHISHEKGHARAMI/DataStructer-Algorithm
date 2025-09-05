@@ -486,3 +486,19 @@
 [Thu Sep  4 22:20:19 2025] [ INFO ] The size of the string is : 19
 [Thu Sep  4 22:20:19 2025] [ INFO ] the capacity of the string is : 19
 [Thu Sep  4 22:20:19 2025] [ INFO ] Program ended..
+[Thu Sep  4 23:19:59 2025] [ INFO ] Program started...
+[Thu Sep  4 23:20:17 2025] [ INFO ] The size of the string is : 39
+[Thu Sep  4 23:20:22 2025] [ INFO ] after coping the string is to the world of c++
+[Thu Sep  4 23:20:22 2025] [ INFO ] The size of the string is : 19
+[Thu Sep  4 23:20:22 2025] [ INFO ] the capacity of the string is : 19
+[Thu Sep  4 23:20:22 2025] [ INFO ] the capacity of the first string is : 60
+[Thu Sep  4 23:20:22 2025] [ INFO ] Program ended..
+[Fri Sep  5 23:26:48 2025] [ INFO ] Program started...
+[Fri Sep  5 23:27:15 2025] [ INFO ] The size of the string is : 30
+[Fri Sep  5 23:27:30 2025] [ INFO ] after coping the string is  hello world c++
+[Fri Sep  5 23:27:30 2025] [ INFO ] The size of the string is : 16
+[Fri Sep  5 23:27:30 2025] [ INFO ] the capacity of the string is : 16
+[Fri Sep  5 23:27:30 2025] [ INFO ] the capacity of the first string is : 30
+[Fri Sep  5 23:27:30 2025] [ INFO ] 
+[Fri Sep  5 23:27:30 2025] [ INFO ] m ended..
+[Fri Sep  5 23:27:30 2025] [ INFO ] Program ended..

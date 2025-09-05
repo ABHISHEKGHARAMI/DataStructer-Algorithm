@@ -26,9 +26,21 @@ int main(int argc,char* agv[]){
         LOG_INFO("The size of the string is : " + std::to_string(s2.size()));
         std::cout << "The capacity of the string is : " << s2.capacity() << std::endl;
         LOG_INFO("the capacity of the string is : " + std::to_string(s2.capacity()));
-        
+
     }
+    // now we should learn about the capacity of the string class
+    std::cout << "the capacity of the first string is : " << s1.capacity() << std::endl;
+    LOG_INFO("the capacity of the first string is : " + std::to_string(s1.capacity()));
+    // check the string is empty or not
+    std::cout << "empty: " << (s1.empty() ? "yes" : "no" ) << std::endl;
     
+
+    // now we have to learn the different access to the string is
+    // have to access the first element of the string
+    std::cout << "the first element of the string is : " << s1.at(0) << std::endl;
+    LOG_INFO("The first string is : " + s1.at(0));
+    std::cout << "the second element of the string is : " << s1.at(s1.size() - 1) << std::endl;
+    LOG_INFO("the last element of the string is : " + s1.at(s1.size() - 1 ));
     LOG_INFO("Program ended..");
     return 0;
 }
