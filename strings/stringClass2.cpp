@@ -41,6 +41,16 @@ int main(int argc,char* agv[]){
     LOG_INFO("The first string is : " + s1.at(0));
     std::cout << "the second element of the string is : " << s1.at(s1.size() - 1) << std::endl;
     LOG_INFO("the last element of the string is : " + s1.at(s1.size() - 1 ));
+
+    // modifiers of the string 
+    char push_char ;
+    int pos;
+    std::cout << "enter the char want to enter in the string : " << std::endl;
+    std::cin >> push_char;
+    std::cout << "enter the pos want to enter the string in the main string :  " << std::endl;
+    std::cin >> pos;
+    s1.insert(pos,",");
+    std::cout << "after insertion the string is " << s1 << std::endl;
     LOG_INFO("Program ended..");
     return 0;
 }

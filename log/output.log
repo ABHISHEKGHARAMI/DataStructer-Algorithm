@@ -502,3 +502,12 @@
 [Fri Sep  5 23:27:30 2025] [ INFO ] 
 [Fri Sep  5 23:27:30 2025] [ INFO ] m ended..
 [Fri Sep  5 23:27:30 2025] [ INFO ] Program ended..
+[Fri Sep  5 23:44:07 2025] [ INFO ] Program started...
+[Fri Sep  5 23:45:21 2025] [ INFO ] The size of the string is : 24
+[Fri Sep  5 23:45:28 2025] [ INFO ] after coping the string is  the new world
+[Fri Sep  5 23:45:28 2025] [ INFO ] The size of the string is : 14
+[Fri Sep  5 23:45:28 2025] [ INFO ] the capacity of the string is : 15
+[Fri Sep  5 23:45:28 2025] [ INFO ] the capacity of the first string is : 30
+[Fri Sep  5 23:45:28 2025] [ INFO ] r want to enter in the string : 
+[Fri Sep  5 23:45:28 2025] [ INFO ] s want to enter the string in the main string :  
+[Fri Sep  5 23:45:49 2025] [ INFO ] Program ended..
