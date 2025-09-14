@@ -24,6 +24,9 @@ int main(int argc,char* argv[]){
         std::cout << "the char at the pos is : " << s1.at(pos) << std::endl;
         LOG_INFO("The char at the postion is : " + std::string(1,s1[pos]));
     }
-    
+    // after doing all the operation now have to clear the string with clear method
+    s1.clear();
+    // after clearing the string have to check with the string method
+    std::cout << "string is empty : " << (s1.empty() ? "yes" : "no") << std::endl;
     return 0;
 }
