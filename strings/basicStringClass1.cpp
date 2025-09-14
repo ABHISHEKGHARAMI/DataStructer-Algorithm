@@ -24,6 +24,18 @@ int main(int argc,char* argv[]){
         std::cout << "the char at the pos is : " << s1.at(pos) << std::endl;
         LOG_INFO("The char at the postion is : " + std::string(1,s1[pos]));
     }
+    // now have to learn the push and pop operation for the string 1 char
+    char ch1;
+    std::cout << "enter the char for push for the string : " << std::endl;
+    std::cin >> ch1;
+    // pushing the char at the string
+    s1.push_back(ch1);
+    std::cout << "After push back the string is : " << s1 << std::endl;
+    LOG_INFO("After pushing the char the string is : " + s1);
+    // now to pop back the char
+    s1.pop_back();
+    std::cout << "After pop back the string is : " << s1 << std::endl;
+    LOG_INFO("the string after pop back operation is : " + s1) ;
     // after doing all the operation now have to clear the string with clear method
     s1.clear();
     // after clearing the string have to check with the string method

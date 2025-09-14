@@ -516,3 +516,6 @@
 [Sun Sep 14 21:29:10 2025] [ INFO ] âÿÿÜ
 [Sun Sep 14 21:38:42 2025] [ INFO ] The char at the postion is : t
 [Sun Sep 14 21:43:22 2025] [ INFO ] The char at the postion is : t
+[Sun Sep 14 23:14:06 2025] [ INFO ] The char at the postion is : n
+[Sun Sep 14 23:14:10 2025] [ INFO ] After pushing the char the string is : i want a choclate!
+[Sun Sep 14 23:14:10 2025] [ INFO ] the string after pop back operation is : i want a choclate
