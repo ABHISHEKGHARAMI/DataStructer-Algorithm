@@ -519,3 +519,11 @@
 [Sun Sep 14 23:14:06 2025] [ INFO ] The char at the postion is : n
 [Sun Sep 14 23:14:10 2025] [ INFO ] After pushing the char the string is : i want a choclate!
 [Sun Sep 14 23:14:10 2025] [ INFO ] the string after pop back operation is : i want a choclate
+[Sun Sep 14 23:29:22 2025] [ INFO ] The char at the postion is : a
+[Sun Sep 14 23:29:30 2025] [ INFO ] After pushing the char the string is : i want toy!
+[Sun Sep 14 23:29:30 2025] [ INFO ] the string after pop back operation is : i want toy
+[Sun Sep 14 23:29:30 2025] [ INFO ] The substring found at the position at : 0
+[Sun Sep 14 23:35:08 2025] [ INFO ] The char at the postion is : a
+[Sun Sep 14 23:35:12 2025] [ INFO ] After pushing the char the string is : i want toy!
+[Sun Sep 14 23:35:12 2025] [ INFO ] the string after pop back operation is : i want toy
+[Sun Sep 14 23:35:16 2025] [ INFO ] The substring found at the position at : 7

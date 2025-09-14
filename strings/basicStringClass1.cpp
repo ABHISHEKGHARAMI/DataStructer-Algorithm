@@ -36,6 +36,21 @@ int main(int argc,char* argv[]){
     s1.pop_back();
     std::cout << "After pop back the string is : " << s1 << std::endl;
     LOG_INFO("the string after pop back operation is : " + s1) ;
+    // now have to learn the find the substring in the string
+    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+    std::string s2;
+    std::cout << "enter the sub-string for the search : " << std::endl;
+    std::getline(std::cin,s2);
+    size_t pos1 = s1.find(s2);
+    if (pos1 < 0 || pos1 >= s1.size())
+    {
+        std::cout << "the substring is not found..." << std::endl;
+        LOG_INFO("The substring could not found...");
+    }else{
+        std::cout << "the substring found at the postion of : " << pos1 << std::endl;
+        LOG_INFO("The substring found at the position at : " + std::to_string(pos1));
+    }
+    
     // after doing all the operation now have to clear the string with clear method
     s1.clear();
     // after clearing the string have to check with the string method
